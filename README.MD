@@ -19,7 +19,6 @@ Post-Processor: Generates summaries and keywords from extracted text using NLP (
 
 Database Logging: All results are logged and stored in PostgreSQL for easy querying.
 
-Project Structure
 VD_Scrapper/
 │
 ├── data/ # Intermediate data and state tracking
@@ -51,7 +50,6 @@ VD_Scrapper/
 ├── requirements.txt # Python dependencies list
 ├── README.MD # Main project documentation (this file)
 └── execution_log.log # Runtime logs for scraper and extraction
-
 Note:> The repository includes the full PostgreSQL dump (`ecourts_dump.sql`)  
 which can be imported locally to reproduce the database setup and results.
 
