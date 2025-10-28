@@ -1,0 +1,16 @@
+{
+  "1": {
+    "name": "Bombay High Court",
+    "benches": [
+      { "code": "1", "name": "Principal Bench, Mumbai" },
+      { "code": "2", "name": "Aurangabad Bench" }
+    ]
+  },
+  "13": {
+    "name": "Allahabad High Court",
+    "benches": [
+      { "code": "1", "name": "Principal Bench, Allahabad" },
+      { "code": "2", "name": "Lucknow Bench" }
+    ]
+  }
+}

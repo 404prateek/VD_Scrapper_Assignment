@@ -1,0 +1,199 @@
+2025-10-27 23:42:08,005 WARNING Using CPU. Note: This module is much faster with a GPU.
+2025-10-27 23:42:12,850 INFO Imported parse_case_detail_html from ecourts_scraper.py
+2025-10-27 23:42:12,851 ERROR State-bench JSON missing or invalid: Missing state/bench mapping JSON at data\state_bench_map.json
+2025-10-27 23:45:30,384 WARNING Using CPU. Note: This module is much faster with a GPU.
+2025-10-27 23:45:35,017 INFO Imported parse_case_detail_html from ecourts_scraper.py
+2025-10-27 23:45:38,880 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2020 type=party
+2025-10-27 23:45:40,221 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?d03d51911ea015e495fce874024d76a7
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?d03d51911ea015e495fce874024d76a7
+2025-10-27 23:45:40,227 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:45:41,882 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2020 type=case_no
+2025-10-27 23:45:43,260 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?05a2ab1096cf70c8c00a3eb3e0ecb55d
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?05a2ab1096cf70c8c00a3eb3e0ecb55d
+2025-10-27 23:45:43,263 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:45:45,200 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2021 type=party
+2025-10-27 23:45:45,681 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?4633382b0cf8d11a57f04eaba0b9b723
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?4633382b0cf8d11a57f04eaba0b9b723
+2025-10-27 23:45:45,683 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:45:47,433 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2021 type=case_no
+2025-10-27 23:45:48,000 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?d83d4778e032ee98556816f37f0de1c4
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?d83d4778e032ee98556816f37f0de1c4
+2025-10-27 23:45:48,003 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:45:49,819 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2022 type=party
+2025-10-27 23:45:50,539 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?24d2e4f1a51df68c75277f3738da2f75
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?24d2e4f1a51df68c75277f3738da2f75
+2025-10-27 23:45:50,541 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:45:51,894 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2022 type=case_no
+2025-10-27 23:45:52,533 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?a972dfbb3da8ac87f2f389c0d9485200
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?a972dfbb3da8ac87f2f389c0d9485200
+2025-10-27 23:45:52,535 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:45:53,819 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2023 type=party
+2025-10-27 23:45:54,440 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?ff0007b932c2337caf7cf32ffe1d3c68
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?ff0007b932c2337caf7cf32ffe1d3c68
+2025-10-27 23:45:54,443 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:45:56,277 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2023 type=case_no
+2025-10-27 23:45:57,687 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?7f92f38469305234f0dce8d4433a401b
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?7f92f38469305234f0dce8d4433a401b
+2025-10-27 23:45:57,691 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:45:58,976 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2024 type=party
+2025-10-27 23:45:59,623 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?04bfb3b166e4a8e81f36a26af9aa2139
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?04bfb3b166e4a8e81f36a26af9aa2139
+2025-10-27 23:45:59,625 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:01,177 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2024 type=case_no
+2025-10-27 23:46:01,842 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?e8cce933f342d7e58286fb129b282d76
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?e8cce933f342d7e58286fb129b282d76
+2025-10-27 23:46:01,845 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:04,063 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2025 type=party
+2025-10-27 23:46:05,505 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?f725d3b8230dd82f0608e54c4ebd7209
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?f725d3b8230dd82f0608e54c4ebd7209
+2025-10-27 23:46:05,507 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:07,436 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2025 type=case_no
+2025-10-27 23:46:08,272 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?f668c2e93a50e491c004305c252aed0c
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?f668c2e93a50e491c004305c252aed0c
+2025-10-27 23:46:08,275 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:09,420 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=singh year=2020 type=party
+2025-10-27 23:46:10,022 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?5178a43feff2eb72a304234bafc3e1ec
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?5178a43feff2eb72a304234bafc3e1ec
+2025-10-27 23:46:10,024 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:12,231 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=singh year=2020 type=case_no
+2025-10-27 23:46:16,577 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?bce5ddddd09b74fff67abc78c10c2824
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?bce5ddddd09b74fff67abc78c10c2824
+2025-10-27 23:46:16,580 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:17,931 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=singh year=2021 type=party
+2025-10-27 23:46:20,186 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?04de883362d602475ccfd5cbe3f830c1
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?04de883362d602475ccfd5cbe3f830c1
+2025-10-27 23:46:20,189 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:21,512 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=singh year=2021 type=case_no
+2025-10-27 23:46:22,328 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?8f2d7fba533bbe0743f830a1a637a007
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?8f2d7fba533bbe0743f830a1a637a007
+2025-10-27 23:46:22,330 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:24,019 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=singh year=2022 type=party
+2025-10-27 23:46:24,859 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?e2a64ec3c951c2037b8a77382acfa989
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?e2a64ec3c951c2037b8a77382acfa989
+2025-10-27 23:46:24,862 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:26,294 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=singh year=2022 type=case_no
+2025-10-27 23:46:27,040 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?0c492c5e1ccafb5e05a4eb4058115c5b
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?0c492c5e1ccafb5e05a4eb4058115c5b
+2025-10-27 23:46:27,043 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:28,585 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=singh year=2023 type=party
+2025-10-27 23:46:29,365 ERROR Failed to download captcha: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?8885b8c5226d4fdae813479cc1d63380
+Traceback (most recent call last):
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\scraper_automated.py", line 133, in download_captcha
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\prate\OneDrive\Pictures\Desktop\VD_Scrapper\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hcservices.ecourts.gov.in/hcservices/hcservices/securimage/securimage_show.php?8885b8c5226d4fdae813479cc1d63380
+2025-10-27 23:46:29,367 WARNING Captcha not downloaded; aborting this search.
+2025-10-27 23:46:30,962 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=singh year=2023 type=case_no
+2025-10-27 23:50:40,361 WARNING Using CPU. Note: This module is much faster with a GPU.
+2025-10-27 23:50:44,842 INFO Imported parse_case_detail_html from ecourts_scraper.py
+2025-10-27 23:50:47,374 INFO Searching state=Bombay High Court (1) bench=Principal Bench, Mumbai kw=kumar year=2020 type=party
